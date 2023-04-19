@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .nav {
+            width: 80vw;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8fafc;
+            padding: 20px;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        .nav-links li {
+            list-style: none;
+            margin: 0 10px;
+        }
+
+        .nav-links a {
+            color: #333333;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #faa;
+        }
+
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 500px;
+        }
+
+        .logo-container {
+            margin-bottom: 40px;
+        }
+
+        .text-container {
+            text-align: center;
+        }
+
+        .text-container h1 {
+            font-size: 2.25rem;
+            margin-bottom: 20px;
+        }
+
+        .text-container p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        .description {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 0;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .description h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .me p {
+            font-size: 20px;
+            max-width: 650px;
+            line-height: 1.5;
+        }
+
+        .me img {
+            max-width: 650px;
+            margin-bottom: 20px;
+            margin-top: 50px;
+        }
+
+        .box-2 {
+            margin-top: 50px;
+        }
+
+        .col {
+            font-size: 1.25em;
+            line-height: 1.5em;
+        }
+
+        .col ol {
+            padding-left: 50px;
+        }
+
+        .col ol li {
+            margin-bottom: 15px;
+        }
+
+
+
+        .sans-serif {
+            font-family: sans-serif;
+        }
+
+
+        .f8bg {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav f8bg">
+            <div class="logo">
+                <img src="https://global-uploads.webflow.com/5e157547d6f791d34ea4e2bf/6087f2b060c7a92408bac811_logo.svg"
+                    alt="Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Connect</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="about-me f8bg">
+            <div class="logo-container">
+                <img src="https://global-uploads.webflow.com/5e157547d6f791d34ea4e2bf/6087f2b060c7a92408bac811_logo.svg"
+                    alt="Logo" width="150" height="150">
+            </div>
+            <div class="text-container">
+                <h1>About Me</h1>
+                <p>Hey, I'm Ali. A doctor turned YouTuber turned entrepreneur (who dabbles with investments).</p>
+            </div>
+        </div>
+    </main>
+    <section class="description">
+        <div class="container">
+            <div class="box-1">
+                <h2 class="sans-serif">Who Am I</h2>
+                <div class="me">
+                    <p>Hey there 😀 I’m Ali, a former doctor turned entrepreneur. Across my videos, podcast, and
+                        writing, we explore evidence-based strategies and tools that can help us be more productive, and
+                        build a life that we love.</p>
+                    <img src="https://aliabdaal.com/wp-content/uploads/2023/01/alithmb.jpeg" alt="Profile">
+                </div>
+            </div>
+            <div class="box-2">
+                <h2 class="sans-serif">Quick Facts About Me</h2>
+                <div class="me">
+                    <div class="col">
+                        <ol>
+                            <li>👨🏼‍⚕️I studied medicine for 6 years at Cambridge University, graduating in 2018 before
+                                working in the UK’s National Health Service for 2 years.</li>
+                            <li>🎬 I started my YouTube channel in 2017 making videos about medicine and studying. Now I
+                                make videos about discussing ideas, books, tech and how we can live healthier, happier
+                                lives.</li>
+                            <li>💌 I write a weekly newsletter called Sunday Snippets. Every Sunday, I share my thoughts
+                                with over 180,000 subscribers. I usually share my thoughts on subjects I’ve been
+                                pondering, links to books I like, articles and podcasts I’ve enjoyed, and other rambly
+                                stuff. You can check out previous issues here.</li>
+                            <li>🎙 My brother and I host a weekly podcast called Not Overthinking. In each episode, we
+                                talk about topics related to ‘happiness, creativity and the human condition’.</li>
+                            <li>🎙 I host a second podcast, Deep Dive. On this podcast, we delve into the minds of
+                                entrepreneurs, creators and other inspiring people to uncover the philosophies,
+                                strategies and tools that help us live happier, healthier and more productive lives.
+                            </li>
+                            <li>✍️ On this website, I write articles about productivity, entrepreneurship and generic
+                                life advice that I’ve found helpful over the years. As well as sharing my favourite apps
+                                and tech.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
