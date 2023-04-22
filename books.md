@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Books
 css-file: styles.css
 ---
 
