@@ -5,7 +5,7 @@ css-file: posts.css
 ---
 
 <section class='all-posts'>
-        <h1>All posts</h1>
+        <h1>ALL POSTS</h1>
         <div class="posts">
             {% for post in site.posts %}
                 <a href='{{ post.url }}' class="post">
