@@ -1,0 +1,52 @@
+---
+layout: default
+title: Home
+css-file: home.css
+---
+<main>
+    <div class="about-me f8bg">
+        <div class="logo-container">
+            <h1 class="sans-serif blue">Krishna Agarwal</h1>
+        </div>
+        <div class="text-container">
+            <h1>About Me</h1>
+            <p>
+                Hey, I'm Krishna. I am a student currently grappling through class 11<sup>th</sup>.
+            </p>
+        </div>
+    </div>
+</main>
+<section class="description max-width-1000">
+    <div class="container max-width-650">
+        <div class="box-1">
+            <h2 class="sans-serif">Who Am I</h2>
+            <div class="me">
+                <p class="max-width-650">
+                    Hey there 😀 I’m Krishna, I'm a 16-year-old student currently in 11th standard. I have a passion
+                    for economics, history, and polity and aspire to become a successful lawyer in the future. In my
+                    free time, I enjoy playing badminton, reading novels, and exploring the exciting world of AI.
+                    Thanks for stopping by my website!
+                </p>
+                <!-- <img src="https://aliabdaal.com/wp-content/uploads/2023/01/alithmb.jpeg" alt="Profile"
+                    class="max-width-650" /> -->
+            </div>
+        </div>
+        <div class="box-2">
+            <h2 class="sans-serif">Quick Facts About Me</h2>
+            <div class="me">
+                <div class="col">
+                    <ol>
+                        <li>
+                            👩‍💻I have been coding since the age of 13. Starting with Python, I also know HTML and
+                            CSS. As a matter of fact, this website is made by me with a bit of help from ChatGPT.
+                        </li>
+                        <li>
+                            😛I don't have anything else to write. I just want to add this line to make 'Facts'
+                            plural. Lol.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
