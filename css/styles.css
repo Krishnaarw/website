@@ -106,4 +106,8 @@ footer {
   height: 2000px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+section,
+footer,
+header {
+  padding: 50px !important;
+}
